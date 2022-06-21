@@ -1,50 +1,76 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background: rgba(0, 0, 0, 0.834);
+} */
+
+section.navbar {
   display: flex;
-  justify-content: space-between;
-  padding-top: 35px;
-  padding-bottom: 10px;
-  margin: auto;
-
-}
-
-.navbar .nav-links {
-  color: black;
-  text-decoration: none;
-
-}
-
-.navbar ul {
-  display: flex;
-
-
-}
-
-.navbar .nav-items {
-
-  margin: auto;
-  font-size: 16px;
-  list-style: none;
-  padding-left: 20px;
-  padding-right: 20px;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+  color: #fff;
 }
 
 .logo {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 48px;
+  color: burlywood;
+}
+
+ul.nav {
+  display: flex;
+  gap: 58px;
+  list-style: none;
+  font-size: 18px;
+}
+
+/* button.cvdownload {
+  padding: 20px 35px 20px 35px;
+  color: #fff;
+  background: burlywood;
+  border: transparent;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 15px;
   cursor: pointer;
-  margin-right: auto;
-  font-size: 26px;
-  color: pink;
-}
+} */
 
-.pink {
-
-  color: #ec4067;
-}
-
-.black {
+a.imalink {
+  text-decoration: none;
   color: black;
+  font-family: 'Poppins';
 }
 
+.imalink {
+  display: inline-block;
+  padding-bottom: 0.65rem;
+  /* defines the space between text and underline */
+  position: relative;
+}
 
+.imalink::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: burlywood;
+  transition: width 0.40s ease-out;
+}
+
+.imalink:hover::before {
+  width: 100%;
+}
 
 
 /*footer section
