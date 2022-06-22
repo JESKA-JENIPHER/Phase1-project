@@ -12,3 +12,8 @@ let getQuote = () => {
       author.innerText = item.author;
     });
 };
+
+
+window.addEventListener("load", getQuote);
+btn.addEventListener("click", getQuote);
+
