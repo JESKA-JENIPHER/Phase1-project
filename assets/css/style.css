@@ -6,7 +6,9 @@
 }
 
 body {
-  background-color: #f43543;
+  background-color:  linear-gradient(#dbd6b7,
+    #cf9e69) ;
+  
 }
 
 .wrapper {
@@ -19,7 +21,7 @@ body {
 
 .container {
   width: 100%;
-  background-color: #f43543;
+  background-color: #6b897b;
   padding: 50px 40px;
   box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
   position: relative;
