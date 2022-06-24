@@ -4,6 +4,8 @@ let btn = document.getElementById("btn");
 
 const url = "https://api.quotable.io/random";
 
+//"https://type.fit/api/quotes";
+
 let getQuote = () => {
   fetch(url)
     .then((data) => data.json())
