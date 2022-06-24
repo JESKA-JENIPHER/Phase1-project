@@ -15,13 +15,13 @@
 
 ## Description
 
- <p>This project is a web application that randomly generates quotes.It incorporates a public API where the random quote data is fetched </p>
+ <p>This project is a web application that randomly generates Donald Trump quotes.It incorporates a public API where the random quote data is fetched </p>
 
 ## Features
 
 As a user of the application,you will be able to :
 
-1. Click a button to display random quotes and quote authors.
+1. Click a button to tweet.
 2. See quotes ones the page is loaded.
 
 ### Requirements
